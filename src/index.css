@@ -6,3 +6,67 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#0A192F;
+   
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#0d4f62; 
+    border-radius: 1px;
+  }
+
+  /* loader animation */
+  .a{
+    animation: a 1s  infinite;
+  }
+  @keyframes a {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 0.5;
+    }
+
+  }
+  .d{
+    animation: d 1s  infinite;
+  }
+  @keyframes d {
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0.5;
+    }
+
+  }
+  .s{
+    animation: s 1s  infinite;
+  }
+  @keyframes s {
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+    }
+
+  }
+  
+  
